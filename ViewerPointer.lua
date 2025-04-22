@@ -112,6 +112,7 @@ Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(-0.0020446151, 0, -3.58395433, 0)
 Frame.Size = UDim2.new(1, 0, 3.2957747, 0)
+Frame.Visible = false
 
 UICorner_4.CornerRadius = UDim.new(0, 15)
 UICorner_4.Parent = Frame
@@ -141,7 +142,7 @@ UICorner_5.Parent = TeleportButton
 
 -- Scripts:
 
-local function OQVDFY_fake_script() -- Main.LocalScript 
+local function DUENYQF_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local Players = game:GetService("Players")
@@ -254,4 +255,4 @@ local function OQVDFY_fake_script() -- Main.LocalScript
 	end)
 	
 end
-coroutine.wrap(OQVDFY_fake_script)()
+coroutine.wrap(DUENYQF_fake_script)()
