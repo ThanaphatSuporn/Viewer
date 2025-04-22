@@ -19,6 +19,7 @@ local UICorner_3 = Instance.new("UICorner")
 Speactor.Name = "Speactor"
 Speactor.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Speactor.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Speactor.ResetOnSpawn = false
 
 Main.Name = "Main"
 Main.Parent = Speactor
@@ -102,7 +103,7 @@ UICorner_3.Parent = NextButton
 
 -- Scripts:
 
-local function MCWJNNJ_fake_script() -- Main.LocalScript 
+local function FOWP_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local Players = game:GetService("Players")
@@ -195,4 +196,4 @@ local function MCWJNNJ_fake_script() -- Main.LocalScript
 	end)
 	
 end
-coroutine.wrap(MCWJNNJ_fake_script)()
+coroutine.wrap(FOWP_fake_script)()
