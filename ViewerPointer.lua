@@ -142,7 +142,7 @@ UICorner_5.Parent = TeleportButton
 
 -- Scripts:
 
-local function DUENYQF_fake_script() -- Main.LocalScript 
+local function AKTA_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local Players = game:GetService("Players")
@@ -164,9 +164,7 @@ local function DUENYQF_fake_script() -- Main.LocalScript
 	local function updatePlayerList()
 		players = {}
 		for _, v in ipairs(Players:GetPlayers()) do
-			if v ~= player then
-				table.insert(players, v)
-			end
+			table.insert(players, v)
 		end
 		if i > #players then
 			i = 1
@@ -255,4 +253,4 @@ local function DUENYQF_fake_script() -- Main.LocalScript
 	end)
 	
 end
-coroutine.wrap(DUENYQF_fake_script)()
+coroutine.wrap(AKTA_fake_script)()
