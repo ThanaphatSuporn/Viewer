@@ -72,7 +72,7 @@ BackButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 BackButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 BackButton.BorderSizePixel = 0
 BackButton.Position = UDim2.new(0.0574948676, 0, 0.174999997, 0)
-BackButton.Size = UDim2.new(0, 49, 0, 50)
+BackButton.Size = UDim2.new(0.100616015, 0, 0.625, 0)
 BackButton.Font = Enum.Font.SourceSansBold
 BackButton.Text = "<"
 BackButton.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -89,7 +89,7 @@ NextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 NextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 NextButton.BorderSizePixel = 0
 NextButton.Position = UDim2.new(0.831622183, 0, 0.174999997, 0)
-NextButton.Size = UDim2.new(0, 49, 0, 50)
+NextButton.Size = UDim2.new(0.100616015, 0, 0.625, 0)
 NextButton.Font = Enum.Font.SourceSansBold
 NextButton.Text = ">"
 NextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -102,7 +102,7 @@ UICorner_3.Parent = NextButton
 
 -- Scripts:
 
-local function XTHL_fake_script() -- Main.LocalScript 
+local function MCWJNNJ_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local Players = game:GetService("Players")
@@ -195,4 +195,4 @@ local function XTHL_fake_script() -- Main.LocalScript
 	end)
 	
 end
-coroutine.wrap(XTHL_fake_script)()
+coroutine.wrap(MCWJNNJ_fake_script)()
